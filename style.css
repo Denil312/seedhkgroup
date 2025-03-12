@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom CSS for Hero Section */
+.hero-section {
+    background-image: url('./src/banner02.png'); 
+    background-size: cover; /* image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 0px 0; /* Adjust padding as needed */
+    color: white; /* Ensure text is readable */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow to text for better visibility */
+  }
+
+
+  /* Custom CSS for About Us Page */
+.card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .text-center .card-text {
+    font-size: 1.1rem; /* Slightly larger text for better readability */
+  }
+  
+  .display-4 {
+    color: #007bff; /* Bootstrap primary color for icons */
+  }

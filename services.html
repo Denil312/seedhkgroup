@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEED</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/src/favicon03.png" />
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- Custom CSS (if needed) -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- the content goes here -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container my-1">
+        <!-- Logo -->
+        <div class="p-0 m-0 d-flex align-items-center">
+          <img src="./src/favicon03.png" alt="" style="height: 40px" />
+          <a class="navbar-brand py-0 mx-3" href="#">種子資產管理顧問</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">
+                <i class="bi bi-house"></i> Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">
+                <i class="bi bi-info-circle"></i> About Us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/services.html">
+                <i class="bi bi-gear"></i> Services
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">
+                <i class="bi bi-envelope"></i> Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Services Section -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-3">Our Service</h2>
+        <h3 class="text-center mb-5">我們的服務</h3>
+        <div class="row">
+          <!-- Service 1: Insurance Product Analysis -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-1">
+              <img
+                src="./img/product_01.png"
+                class="card-img-top"
+                alt="Insurance Product Analysis"
+              />
+              <br>
+              <img
+                src="./img/product_02.png"
+                class="card-img-top"
+                alt="Insurance Product Analysis"
+              />
+              <div class="card-body">
+                <h3 class="card-title">
+                  <i class="bi bi-shield-check text-success"></i> 保險及理財產品分析
+                </h3>
+                <p class="card-text fw-normal">
+                  Collect insurance and financial products from major companies across Hong Kong, conduct professional analysis and comparisons, and provide you with the most suitable recommendations.
+                </p>
+                <p class="card-text fw-normal">
+                  搜集全香港各大公司的保險及理財產品，並進行專業分析、比較，給您最合適的推薦。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 2: Financial Planning Seminars -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-1">
+              <img
+                src="./img/seminar_05.png"
+                class="card-img-top"
+                alt="Financial Planning Seminars"
+              />
+              <br>
+              <img
+                src="./img/seminar_02.png"
+                class="card-img-top"
+                alt="Financial Planning Seminars"
+              />
+              <div class="card-body">
+                <h3 class="card-title">
+                  <i class="bi bi-lightbulb text-success"></i> 理財專題講座
+                </h3>
+                <p class="card-text fw-normal">
+                  Regularly host financial planning seminars, including topics such as property revitalization, retirement and elderly care, social welfare, and an introduction to private banking services.
+                </p>
+                <p class="card-text fw-normal">
+                  定期舉辦理財專題講座，包括物業活化、退休安老生活及社會福利、私人銀行業務簡介等。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 3: Overseas Education Seminars -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-1">
+              <img
+                src="./img/overseas_01.png"
+                class="card-img-top"
+                alt="Overseas Education Seminars"
+              />
+              <br>
+              <img
+                src="./img/overseas_02.png"
+                class="card-img-top"
+                alt="Overseas Education Seminars"
+              />
+              <div class="card-body">
+                <h3 class="card-title">
+                  <i class="bi bi-book text-success"></i> 海外升學講座
+                </h3>
+                <p class="card-text fw-normal">
+                  Providing seminars on overseas education, covering public examination requirements for universities in different countries, as well as additional factors beyond academic performance that can help students gain university admission.
+                </p>
+                <p class="card-text fw-normal">
+                  提供海外升學的小型講座，包括不同國家大學的公開考試要求；主科成績以外，還有什麼方面可幫助考到大學等。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p class="mb-0">
+          &copy; 2025 SEED Assets Management Limited. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies (optional, for interactive components) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
